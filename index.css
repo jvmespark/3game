@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+ }
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+/*          CLASSES         */
+
+.menu_UI {
+    text-align: center;
+    position: relative;
+
+    display:none;
+}
+
+.menu_UI h1 {
+    font-size: 100px;
+}
+.menu_UI button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.about {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 100px;
+
+    display:none;
+}
